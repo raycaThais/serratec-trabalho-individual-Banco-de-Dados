@@ -1,0 +1,22 @@
+/* 4. Tente remover um usuário específico da tabela usuario que possui um empréstimo. O que
+aconteceu? Explique o que ocorreu. */
+    Ao tentar remover um usuário que possuia um empréstimo ocorreu o seguinte erro:
+
+  "  ERROR:  atualização ou exclusão em tabela "usuario" viola restrição de chave estrangeira "emprestimo_id_usuario_fkey" em "emprestimo"
+Chave (id)=(3) ainda é referenciada pela tabela "emprestimo". 
+
+ERRO:  atualização ou exclusão em tabela "usuario" viola restrição de chave estrangeira "emprestimo_id_usuario_fkey" em "emprestimo"
+SQL state: 23503
+Detail: Chave (id)=(3) ainda é referenciada pela tabela "emprestimo". "
+
+    Isso ocorre quando se tenta excluir dados de uma tabela, no qual ele ainda possui registros relacionados em uma outra tabela.
+
+
+/*  5. (DESAFIO) Explique a diferença entre DELETE FROM e TRUNCATE TABLE. Em qual situação
+cada um deve ser utilizado? (Pesquise) */
+    Em suma, DELETE FROM remove registros linha por linha, permitindo filtros (WHERE), registrando no log e podendo ser desfeito (ROLLBACK). 
+Já TRUNCATE TABLE remove todos os registros de forma rápida, não permite filtros, não aciona gatilhos e geralmente não pode ser desfeito.
+Usa-se DELETE para remoções específicas e TRUNCATE para limpar a tabela inteira rapidamente. 
+
+    Ou seja, o "DELETE FROM" é usado quando é necessário remover registros específicos ou quando se deseja manter o controle da operação para reverter se necessário.
+ E o "TRUNCATE TABLE" é necessário remover todos os registros de uma tabela rapidamente, sem precisar de controle transacional ou ativação de gatilhos.
