@@ -1,0 +1,7 @@
+Funções de Agregação e Agrupamento 
+
+ 1. Conte quantos livros estão cadastrados na biblioteca usando COUNT. 
+ 2. Descubra a média de tempo de empréstimo dos livros utilizando AVG. 
+ 3. Encontre o livro mais antigo e o mais recente utilizando MIN e MAX. 
+ 4. Liste quantos empréstimos cada usuário já fez, agrupando por nome do usuário. 
+ 5. Mostre quantos livros existem por gênero, agrupando os resultados.  

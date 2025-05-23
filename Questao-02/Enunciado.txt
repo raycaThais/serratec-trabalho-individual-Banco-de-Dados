@@ -1,0 +1,27 @@
+Criando o Banco de Dados (DDL) 
+
+ 1. Crie um banco de dados chamado biblioteca. 
+ 2. Crie uma tabela livro com os seguintes campos: 
+ id (chave primária, autoincremento) 
+ titulo (não nulo) 
+ autor (não nulo) 
+ ano_publicacao (não nulo) 
+ genero (não nulo) 
+ quantidade_estoque (não nulo) 
+ 3. Crie uma tabela usuario com os campos: 
+ id (chave primária, autoincremento) 
+ nome (não nulo) 
+ cpf (único) 
+ email (único) 
+ telefone (não nulo) 
+ endereco (não nulo) 
+ 4. Crie uma tabela emprestimo com os seguintes campos: 
+ id (chave primária, autoincremento) 
+ id_usuario (chave estrangeira referenciando usuario) 
+ id_livro (chave estrangeira referenciando livro) 
+ data_emprestimo (não nulo) 
+ data_devolucao (pode ser nulo) 
+ status (ENUM: "emprestado", "devolvido") 
+ 5. Escreva um comando SQL para alterar a tabela livro, adicionando um campo editora
+VARCHAR(100). 
+Obs: para criar um campo único, utilize a palavra chave UNIQUE no final da linha do campo

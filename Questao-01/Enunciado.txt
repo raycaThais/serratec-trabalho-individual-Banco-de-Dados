@@ -1,0 +1,10 @@
+Introdução ao Banco de Dados 
+
+ 1. Pensando em um sistema financeiro, escreva 10 entidades. 
+ 2. Dê três exemplos de entidades com cinco atributos cada um sistema de biblioteca. 
+ 3. Identifique e corrija os problemas de normalização na seguinte tabela:
+Cliente (id, nome, telefone, email, endereço, produto_comprado, valor_compra) 
+ 4. Dê um exemplo, com entidades e atributos, de um relacionamento 1:N e um N:M em um
+sistema de e-commerce. 
+ 5. Construa um modelo conceitual (2 entidades) e um modelo lógico (até 3 entidades) para o
+relacionamento Pessoa x Automóvel. 

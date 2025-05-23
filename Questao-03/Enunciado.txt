@@ -1,0 +1,9 @@
+Com base nas tabelas criadas no exercício 2, faça:
+
+ 1. Insira 10 registros na tabela livro com informações fictícias. 
+ 2. Insira 5 registros na tabela usuario com diferentes usuários. 
+ 3. Atualize o telefone de um usuário específico usando o comando UPDATE. 
+ 4. Tente remover um usuário específico da tabela usuario que possui um empréstimo. O que
+aconteceu? Explique o que ocorreu. 
+ 5. (DESAFIO) Explique a diferença entre DELETE FROM e TRUNCATE TABLE. Em qual situação
+cada um deve ser utilizado? (Pesquise)

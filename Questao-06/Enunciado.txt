@@ -1,0 +1,11 @@
+Índices e Views 
+
+ 1. Crie um índice na tabela livro para melhorar a busca pelo campo titulo. 
+ 2. Crie um índice na tabela emprestimo para otimizar a busca por data_emprestimo. 
+ 3. Crie uma VIEW chamada vw_historico_emprestimos que exiba o nome do usuário, título do
+livro, data do empréstimo e data de devolução. 
+ 4. Explique como um índice pode melhorar a performance de uma consulta e quais são os
+impactos negativos de usar muitos índices. 
+ 5. Teste a performance de uma consulta antes e depois de criar um índice usando EXPLAIN
+ANALYZE. (Caso já tenha criado os índices nos exercícios 1 e 2, utilize o comando DROP
+INDEX nome_indice; faça o teste, crie novamente e refaça o teste para analisar a diferença.) 

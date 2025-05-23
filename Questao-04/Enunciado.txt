@@ -1,0 +1,9 @@
+Consultas e Junção de Tabelas (DQL) 
+
+ 1. Selecione todos os livros cadastrados no banco de dados. 
+ 2. Liste o nome do usuário e o título do livro de todos os empréstimos realizados, utilizando um
+JOIN. 
+ 3. Selecione todos os empréstimos que ainda não foram devolvidos (status = 'emprestado'). 
+ 4. Liste todos os autores e os livros que eles escreveram. 
+ 5. Crie uma consulta que mostre todos os usuários e os livros que já pegaram emprestado,
+incluindo usuários que nunca pegaram livros. 
